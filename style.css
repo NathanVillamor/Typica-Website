@@ -156,3 +156,40 @@ main {
 }
 
 /* Know More */
+
+/* About Us */
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 80vh;
+    gap: 2rem;
+}
+
+.about-us .text-container {
+    margin-right: 5%;
+}
+
+.about-us .text-container h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-us .text-container button {
+    cursor: pointer;
+    
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 7rem;
+    
+}
+
+.about-us img {
+    width: auto;
+    height: 100%;
+}
+
+/* About Us */
