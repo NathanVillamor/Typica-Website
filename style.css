@@ -93,12 +93,12 @@ main {
 
 .hero-container button:hover {
     cursor: pointer;
-    border-color: var(--Brown);
-    background: var(--Brown);
+    border-color: var(--Green);
+    background: var(--Green);
     color: var(--White);
     
-    padding: 0.6rem;
-    width: 7.5rem;
+    padding: 0.8rem;
+    width: 8rem;
 }
 
 /* Hero */
@@ -167,6 +167,7 @@ main {
 
     height: 80vh;
     gap: 2rem;
+    margin: 0 0rem 5rem 0rem;
 }
 
 .about-us .text-container {
@@ -180,11 +181,25 @@ main {
 
 .about-us .text-container button {
     cursor: pointer;
+    background-color: var(--White);
+    border-color: var(--Black);
+    color: var(--Black);
     
     border-radius: 0.5rem;
     margin-top: 1rem;
     padding: 0.5rem;
     width: 7rem;
+    
+    transition: 0.5s ease;
+}
+.about-us .text-container button:hover {
+    cursor: pointer;
+    background-color: var(--Green);
+    border-color: var(--Green);
+    color: var(--White);
+    
+    padding: 0.8rem;
+    width: 9rem;
     
 }
 
@@ -201,6 +216,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--Green);
 
     height: 100vh;
 }
@@ -210,6 +226,7 @@ main {
     writing-mode: vertical-rl;
     text-orientation: sideways;
     align-self: baseline;
+    color: var(--White);
 
     margin-top: 1.5rem;
     font-size: 5rem;
@@ -241,9 +258,6 @@ main {
 }
 
 
-.location-image {
-}
-
 .location-image h1 {
     text-align: center;
     
@@ -252,12 +266,14 @@ main {
 }
 
 .branch-img {
+    background-position: center;
+    background-size: contain;
+
     height: 35rem;
     width: 35rem;
     border-radius: 20rem;
-    background: url(/Assets/AngonoBranch.jpg);
-    background-position: center;
-    background-size: contain;
+
+    transition: 0.5s ease;
 }
 
 .location-list ul li {
