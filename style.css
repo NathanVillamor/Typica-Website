@@ -135,6 +135,7 @@ main {
 .card:hover {
     height: 26rem;
     width: 26rem;
+    opacity: 80%;
 }
 
 .card:first-of-type {
@@ -193,3 +194,37 @@ main {
 }
 
 /* About Us */
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.gallery h1 {
+    text-align: justify;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    align-self: baseline;
+
+    margin-top: 1.5rem;
+    font-size: 5rem;
+}
+
+.gallery img {
+    width: 25rem;
+    height: 25rem;
+
+    transition: 0.5s ease;
+}
+
+.gallery img:hover {
+    width: 27rem;
+    height: 27rem;
+}
+
+/* Gallery */
