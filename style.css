@@ -1,0 +1,51 @@
+/* General CSS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --Black: #010101;
+    --White: #ffffff;
+    --Green: #8ab776;
+    --Brown: #b08b65;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+/* Navbar */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--Black);
+
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover {
+    color: #8ab776;
+}
+
+/* Navbar */
