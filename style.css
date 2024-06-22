@@ -279,3 +279,19 @@ main {
 
 /* Locations */
 
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Black);
+    color: var(--White);
+
+    padding: 1rem;
+}
+
+.profile-links i {
+    margin-left: 1rem;
+}
+
+/* Footer */
