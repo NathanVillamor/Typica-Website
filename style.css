@@ -45,7 +45,60 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #8ab776;
+    color: var(--Brown);
 }
 
 /* Navbar */
+
+/* Hero */
+
+main {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(/Assets/AboutUs.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+
+}
+
+.hero-container {
+    color: var(--White);
+
+    margin: 5rem;
+    margin-top: 8rem;
+    width: 45rem;
+}
+
+.hero-container h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-container button {
+    cursor: pointer;
+    border-color: var(--White);
+    background: transparent;
+    color: var(--White);
+    
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 7rem;
+    
+    transition: 0.5s ease;
+}
+
+.hero-container button:hover {
+    cursor: pointer;
+    border-color: var(--Brown);
+    background: var(--Brown);
+    color: var(--White);
+    
+    padding: 0.6rem;
+    width: 7.5rem;
+}
+
+/* Hero */
