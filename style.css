@@ -102,3 +102,57 @@ main {
 }
 
 /* Hero */
+
+/* Know More */
+
+.know-more {
+    height: 70vh;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    font-size: 2rem;
+    border: 1px solid gray;
+    height: 25rem;
+    width: 25rem;
+
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    height: 26rem;
+    width: 26rem;
+}
+
+.card:first-of-type {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(/Assets/Locations.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(/Assets/Menu.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.card:last-of-type {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(/Assets/Team.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+/* Know More */
